@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "bio",
+         "patterns": ["who are you?", "who created you?", "what is your name?", "tell about you", "can I know about you"],
+         "responses": ["I'm Chatty *_*, \n\"Sabeer\" created me as his final semister project."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can provide six basic features, try typing \n 1) Lyrics for \"shape of you\" \n 2) Music for \"shape of you\" \n 3) Video song for \"shape of you\" \n 4) News \n 5) Quotations \n 6) Weather report of \"vijayawada\" \n 7) search \"elephant\" on google"],
+         "context": [""]
+        },
+        {"tag": "music",
+         "patterns": ["search for audio song", "search for video song", "listen to music","music for song"],
+         "responses": ["Please wait we are getting your results."],
+         "context": [""]
+        },
+        {"tag": "news",
+         "patterns": ["search for some news", "show news", "find some latest news"],
+         "responses": ["Please wait we are getting your results."],
+         "context": [""]
+        },
+        {"tag": "lyrics",
+         "patterns": ["search lyrics for", "lyrics for ", "text song"],
+         "responses": ["Please wait we are getting lyrics."],
+         "context": [""]
+        },
+        {"tag": "weather",
+         "patterns": ["what is weather here", "find weatehr", "what is temperature", "what is humidity here", "weather report"],
+         "responses": ["sowing weateher"],
+         "context": [""]
+        },
+        {"tag": "quotations",
+         "patterns": ["write a quotations", "write a quote", "show quote", "show quotations"],
+         "responses": ["shoting quotations"],
+         "context": [""]
+        },
+        {"tag": "search",
+         "patterns": ["search for", "search on google", "search this on google", "search on google for"],
+         "responses": ["finding your results"],
+         "context": [""]
+        }
+   ]
+}
